@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/Hotel_Database_Microservice
+    username: postgres
+    password: 2002
+  jpa:
+    hibernate:
+      ddl-auto: update
